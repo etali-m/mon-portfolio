@@ -3,10 +3,10 @@
     <nav class="fixed w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
         <div class="max-w-6xl mx-auto flex justify-between items-center px-4 sm:px-6 py-4">
             
-            <!-- Logo / Nom -->
-            <div class="font-bold text-lg tracking-tight">
+            <!-- Logo / Nom --> 
+            <div class="flex items-center text-lg font-bold gap-1 tracking-tight">
                 <span class="text-gray-800">Mathias</span>
-                <span class="ml-1 px-2 py-1 bg-blue-500 text-white rounded-md text-base">
+                <span class="px-2 py-1 bg-blue-500 -rotate-6 text-white rounded-md text-sm">
                     Etali
                 </span>
             </div>
