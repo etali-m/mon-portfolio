@@ -24,16 +24,32 @@
                     <span class="material-symbols-outlined p-1 text-blue-500 bg-blue-500/10 rounded-lg">code</span>
                     <h1 class="text-xl text-blue-500">Langages & Frameworks</h1>
                 </div> 
-                <div class="flex gap-2">
-                    <span class="px-3 py-2 rounded-xl text-xs sm:text-sm hover:bg-blue-500/10 hover:text-blue-500">
-                        HTML 5
+                <div class="flex flex-wrap gap-1">
+                    <span class="px-3 py-2 rounded-xl text-xs sm:text-sm bg-blue-500/10 hover:text-blue-500 flex items-center sm:w-1/2 md:w-1/4 gap-2">
+                        <i class="devicon-html5-plain colored text-lg"></i> 
+                        <span>HTML 5</span>
+                    </span> 
+
+                    <span class="px-3 py-2 rounded-xl text-xs sm:text-sm bg-blue-500/10 hover:text-blue-500 flex items-center sm:w-1/2 md:w-1/4 gap-2">
+                        <i class="devicon-css3-plain colored text-lg"></i> 
+                        <span>CSS 3</span>
+                    </span> 
+
+                    <span class="px-3 py-2 rounded-xl text-xs sm:text-sm bg-blue-500/10 hover:text-blue-500 flex items-center sm:w-1/2 md:w-1/4 gap-2">
+                        <i class="devicon-javascript-plain colored text-lg"></i> 
+                        <span>Javascript</span>
+                    </span> 
+
+                    <span class="px-3 py-2 rounded-xl text-xs sm:text-sm bg-blue-500/10 hover:text-blue-500 flex items-center sm:w-1/2 md:w-1/4 gap-2">
+                        <i class="devicon-php-plain colored text-lg"></i>
+                        <span>PHP</span>
                     </span>
-                    <span class="px-3 py-2 rounded-xl text-xs sm:text-sm hover:bg-blue-500/10 hover:text-blue-500">
-                        CSS 3
-                    </span>
-                    <span class="px-3 py-2 rounded-xl text-xs sm:text-sm hover:bg-blue-500/10 hover:text-blue-500">
-                        Python
-                    </span>
+
+                    <span class="px-3 py-2 rounded-xl text-xs sm:text-sm bg-blue-500/10 hover:text-blue-500 flex items-center sm:w-1/2 md:w-1/4 gap-2">
+                        <i class="devicon-python-plain colored text-lg"></i> 
+                        <span>Python</span>
+                    </span> 
+ 
                 </div>
             </div>  
           </div>
