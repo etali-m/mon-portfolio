@@ -15,11 +15,11 @@
         <!-- Réseaux -->
         <div class="flex items-center gap-5 text-lg">
 
-            <a href="#" class="footer-icon">
+            <a href="https://github.com/etali-m" target="_blank" class="footer-icon">
                 <i class="devicon-github-original"></i>
             </a>
 
-            <a href="#" class="footer-icon">
+            <a href="https://www.linkedin.com/in/mathias-etali-9564871b6/" target="_blan" class="footer-icon">
                 <i class="devicon-linkedin-plain"></i>
             </a> 
 
