@@ -5,11 +5,11 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         
         <!-- Colonne gauche : Photo avec animation -->
-        <div class="relative flex justify-center md:justify-center order-2 md:order-1">
+        <div class="relative flex justify-center md:justify-center order-2 md:order-1" data-aos="fade-right">
           <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-xl ring-4 ring-white hover:scale-105 transition-transform duration-300 ease-in-out">
             <!-- Image placeholder - remplace par ton image réelle -->
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
+              src="../assets/images/profile_picture.jpg" 
               alt="Mathias Etali"
               class="w-full h-full object-cover"
             />
@@ -19,7 +19,7 @@
         </div>
 
         <!-- Colonne droite : Texte et boutons -->
-        <div class="text-left order-1 md:order-2 space-y-6">
+        <div class="text-left order-1 md:order-2 space-y-6" data-aos="fade-up">
           <!-- Badge (optionnel) pour un effet moderne -->
           <span class="inline-block px-3 py-1 text-xs font-semibold text-blue-600 bg-blue-50 rounded-full">
             👋 Disponible pour des missions
@@ -40,11 +40,11 @@
           <!-- Stats rapides (optionnel) pour plus de crédibilité -->
           <div class="flex gap-6 pt-4">
             <div>
-              <div class="text-2xl font-bold text-gray-800">5+</div>
+              <div class="text-2xl font-bold text-gray-800">2+</div>
               <div class="text-sm text-gray-500">Années d'exp.</div>
             </div>
             <div>
-              <div class="text-2xl font-bold text-gray-800">30+</div>
+              <div class="text-2xl font-bold text-gray-800">05+</div>
               <div class="text-sm text-gray-500">Projets</div>
             </div>
             <div>

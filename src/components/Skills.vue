@@ -8,7 +8,7 @@
         <!-- Colonne gauche : barres de progression -->
         <div class="space-y-8 col-span-2">
           <!-- En-tête -->
-          <div class="space-y-3">
+          <div class="space-y-3 mt-24">
             <span class="inline-block px-4 py-1.5 text-sm font-semibold text-blue-600 bg-blue-50 rounded-full">
               ✦ Mon expertise
             </span>
@@ -161,7 +161,7 @@
         </div>
 
         <!-- Colonne droite : image -->
-        <div class="relative flex justify-center md:justify-center items-center col-span-1">
+        <div class="relative flex justify-center md:justify-center items-center col-span-1" data-aos="zoom-in">
           <div class="relative w-full max-w-md h-auto rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300">
             <img 
               src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80" 

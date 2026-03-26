@@ -20,132 +20,42 @@
     </div>
 
     <!-- Grid projets -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8" data-aos="fade-up">
 
-        <!-- Projet 1 -->
-        <div class="project-card">
-
-            <img 
-            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c"
-            class="project-image"
-            />
+        <!-- liste des projets --> 
+        <div v-for="project in projects" :key="project.id" class="project-card">
 
             <div class="p-6 space-y-4">
 
                 <h3 class="text-lg font-semibold text-gray-800">
-                    Security Audit Manager
+                    {{ project.title }}
                 </h3>
 
                 <p class="text-gray-500 text-sm">
-                    Application web permettant de gérer les audits de sécurité et le suivi des recommandations avec analyse NLP.
+                    {{ project.description }}
                 </p>
 
                 <!-- Technologies -->
                 <div class="flex flex-wrap gap-2 text-xs">
 
-                    <span class="tag">Django</span>
-                    <span class="tag">Vue.js</span>
-                    <span class="tag">NLP</span>
+                    <span class="tag" v-for="tech in project.technologies" :key="tech">{{ tech }}</span> 
 
                 </div>
 
                 <!-- Liens -->
                 <div class="flex gap-4 pt-2">
 
-                    <a href="#" class="project-link">
-                        Code
-                    </a>
-
-                    <a href="#" class="project-link">
-                        Demo
-                    </a>
+                    <span v-for="link in project.links" :key="link">
+                        <a :href="link.url" class="project-link" target="_blank" >
+                            {{ link.label }}
+                        </a>
+                    </span> 
 
                 </div>
 
             </div>
 
-        </div>
-
-
-        <!-- Projet 2 -->
-        <div class="project-card">
-
-            <img 
-            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
-            class="project-image"
-            />
-
-            <div class="p-6 space-y-4">
-
-                <h3 class="text-lg font-semibold text-gray-800">
-                    DevOps Deployment Pipeline
-                </h3>
-
-                <p class="text-gray-500 text-sm">
-                    Mise en place d'un pipeline CI/CD pour déployer une application web avec Docker et GitLab CI.
-                </p>
-
-                <div class="flex flex-wrap gap-2 text-xs">
-
-                    <span class="tag">Docker</span>
-                    <span class="tag">GitLab CI</span>
-                    <span class="tag">AWS</span>
-
-                </div>
-
-                <div class="flex gap-4 pt-2">
-
-                    <a href="#" class="project-link">
-                        Code
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- Projet 3 -->
-        <div class="project-card">
-
-            <img 
-            src="https://images.unsplash.com/photo-1551434678-e076c223a692"
-            class="project-image"
-            />
-
-            <div class="p-6 space-y-4">
-
-                <h3 class="text-lg font-semibold text-gray-800">
-                    Portfolio Developer
-                </h3>
-
-                <p class="text-gray-500 text-sm">
-                    Portfolio personnel développé avec Vue.js et Tailwind CSS pour présenter mes projets et compétences.
-                </p>
-
-                <div class="flex flex-wrap gap-2 text-xs">
-
-                    <span class="tag">Vue.js</span>
-                    <span class="tag">Tailwind</span>
-
-                </div>
-
-                <div class="flex gap-4 pt-2">
-
-                    <a href="#" class="project-link">
-                        Code
-                    </a>
-
-                    <a href="#" class="project-link">
-                        Demo
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
+        </div> 
 
     </div>
 
@@ -154,6 +64,14 @@
 </section>
 
 </template>
+
+<script setup>
+import { ref } from 'vue';
+import { projects } from '../data/projects';
+
+
+
+</script>
 
 <style scoped>
 
