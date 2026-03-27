@@ -1,6 +1,6 @@
 <template>
 
-<section id="contact" class="py-24 bg-gray-50">
+<section id="contact" class="py-24 sm:py-15 bg-gray-50">
 
 <div class="max-w-4xl mx-auto px-6 text-center">
 
@@ -22,7 +22,7 @@
 
     <!-- Bouton email -->
     <div class="mt-10">
-        <a href="mailto:email@example.com"
+        <a href="mailto:etalijunior15@gmail.com"
            class="inline-flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-xl shadow hover:bg-blue-600 transition">
 
             <span class="material-symbols-outlined text-base">mail</span>
