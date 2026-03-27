@@ -139,11 +139,11 @@
                     </div>
 
                     <div class="tech-card">
-                        <i class="devicon-amazonwebservices-original colored text-xl"></i>
+                        <i class="devicon-amazonwebservices-plain-wordmark-amazonwebservices-original colored text-xl"></i>
                         <span>AWS</span>
                     </div>
 
-                    <div class="tech-card">
+                    <div class="tech-card"> 
                         <i class="devicon-gitlab-plain colored text-xl"></i>
                         <span>GitLab CI/CD</span>
                     </div>
