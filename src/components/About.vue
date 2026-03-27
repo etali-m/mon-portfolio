@@ -15,12 +15,12 @@
 
         <div class="px-12 py-15 sm:py-8 sm:px-6 border border-gray-100 rounded-2xl shadow-sm hover:shadow-blue-100 hover:border-b-2 hover:border-b-blue-400 hover:duration-100" data-aos="zoom-in">
             <div class="relative -top-15 -left-15 w-10 h-10 bg-blue-800 rounded-full opacity-30 hover:scale-150"></div>
-            <p class="text-gray-600 text-lg sm:text-sm leading-8">
+            <p class="text-gray-600 text-base md:text-lg leading-relaxed">
                 Je suis un développeur <span class="text-blue-500">backend python</span> basé au <b>Cameroun</b> 🇨🇲, passionné par la conception de systèmes robustes, sécurisé et évolutifs. J'aime construire des architecture qui fonctionnent derrière les applications et développer des <span class="text-blue-500">API fiables</span> capables de supporter les solutions modernes.
             </p>
-            <p class="text-gray-600 mt-3 text-lg sm:text-sm leading-8">
+            <p class="text-gray-600 mt-3 text-base md:text-lg leading-relaxed">
                 Je m'interesse également au cloud et aux pratiques Devops, à l'automatisation des déploiements des applications.
-            </p> 
+            </p>
         </div>
 
     </div>
